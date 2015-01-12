@@ -88,7 +88,7 @@ Use the *Share* button in the top-right corner to share your map.
 * [Tutorials] (http://academy.cartodb.com/)
 
 ---
-#####Data Sources
+## Data Sources
 * **State and county outlines:** Global Administrative Areas database, <gadm.org>
 * **US adult obesity by state:**  Centers for Disease Control and Prevention (CDC). Behavioral Risk Factor Surveillance System Survey Data. Atlanta, Georgia: U.S. Department of Health and Human Services, Centers for Disease Control and Prevention. <http://apps.nccd.cdc.gov/brfss/>
 * **MA adult obesity:**  CDC, Diabetes Interactive Atlas, County Indicators, <http://www.cdc.gov/diabetes/atlas/countydata/County_ListofIndicators.html>
