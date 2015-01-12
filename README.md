@@ -19,7 +19,7 @@ The data are stored on Google Drive. The link will be shared with you during the
 * Tornado Variable Descriptions.pdf – metadata for the tornado datasets
 * CountyPop2010.zip – polygon shapefile (zipped) of county outlines with population information
 
-######Data Sources
+#####Data Sources
 * **State and county outlines:** Global Administrative Areas database, <gadm.org>
 * **US adult obesity by state:**  Centers for Disease Control and Prevention (CDC). Behavioral Risk Factor Surveillance System Survey Data. Atlanta, Georgia: U.S. Department of Health and Human Services, Centers for Disease Control and Prevention. <http://apps.nccd.cdc.gov/brfss/>
 * **MA adult obesity:**  CDC, Diabetes Interactive Atlas, County Indicators, <http://www.cdc.gov/diabetes/atlas/countydata/County_ListofIndicators.html>
@@ -28,10 +28,11 @@ The data are stored on Google Drive. The link will be shared with you during the
 
 
 ## TOOLS
-###TimeMapper <http://timemapper.okfnlabs.org/>
+###TimeMapper  <http://timemapper.okfnlabs.org/>
 To use TimeMapper, you need a Google account so that you can create a Google spreadsheet. Creating a TimeMapper account is optional, but it allows you to edit your maps later on.
 ####To learn how to use it:
 *First*, watch the 1 minute tutorial on the website.
+
 *Then* look at the example Civil War [spreadsheet] (https://docs.google.com/spreadsheets/d/1E_r2WyxQmk7SNQhjeWBWz_R6Pv-DMe8kZjHb3TOM9GA/edit?usp=sharing) and [map] (http://timemapper.okfnlabs.org/carolinferwerda/civil-war-battles-timemapper-example-spreadsheet).
 *General steps:*
 1. Decide what you want to focus on. (All battles in a particular year? Only decisive battles? Battles in a particular area or involving particular commanders?)
@@ -39,8 +40,23 @@ To use TimeMapper, you need a Google account so that you can create a Google spr
 3. Find any additional media for each battles (an image or youtube video) and paste the link in the Media column of the spreadsheet. Fill in source information, descriptions, etc. This is the part where you can customize the message of the map!
 4. Publish the map according to the instructions on the TimeMapper website.
 
-###ArcGIS Online <https://www.arcgis.com/home/signin.html>
+---
+###ArcGIS Online  <https://www.arcgis.com/home/signin.html>
 You will be provided with temporary accounts during the workshop. The accounts will remain available to you until 1/21, after which all content will be deleted as these accounts will be used in other trainings.
 ####Add Data
-
+#####Upload Data
+#####Search for Data on ArcGIS Online
 ####Make a Map
+
+---
+###CartoDB  <http://cartodb.com/>
+Go to the website to sign up for a free account.
+
+Chrome is the recommended browser for this tool.
+####Add Data
+**File formats:** CSV, Excel, ESRI Shapefiles, and GPX files
+1. Go to your CartoDB dashboard (https://yourusername.cartodb.com/dashboard/)  and click *New Table* (the big plus sign in the right side of the screen).
+2. Now you have several ways to bring in datasets. Two commonly used options:
+⋅⋅* Upload Data: Shapefiles must be compressed in a zip archive (*.zip) before uploading. Choose *select a file* or drag and drop the zip file onto the New table window. () 
+⋅⋅* Import from URL: Paste a URL to a data file into the field. The URL should be to a supported file type. For example, if we want to import a layer showing libraries in MA from the MassGIS website, the URL for the datalayer’s info page (http://www.mass.gov/anf/research-and-tech/it-serv-and-support/application-serv/office-of-geographic-information-massgis/datalayers/libraries.html) won’t work; instead, we want the link to the libraries.zip file, which is from *Download this layer: ESRI Shapefile* (http://wsgw.mass.gov/data/gispub/shape/state/libraries.zip).
+⋅⋅* Additional help: http://docs.cartodb.com/tutorials/import_shapefile_in_cartodb.html
