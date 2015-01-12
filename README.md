@@ -50,13 +50,15 @@ You will be provided with temporary accounts during the workshop. The accounts w
 
 ---
 ###CartoDB  <http://cartodb.com/>
-Go to the website to sign up for a free account.
-
-Chrome is the recommended browser for this tool.
+Go to the website to sign up for a free account. Chrome is the recommended browser for this tool.
 ####Add Data
 **File formats:** CSV, Excel, ESRI Shapefiles, and GPX files
+
 1. Go to your CartoDB dashboard (https://yourusername.cartodb.com/dashboard/)  and click *New Table* (the big plus sign in the right side of the screen).
-2. Now you have several ways to bring in datasets. Two commonly used options:
-⋅⋅* Upload Data: Shapefiles must be compressed in a zip archive (*.zip) before uploading. Choose *select a file* or drag and drop the zip file onto the New table window. () 
-⋅⋅* Import from URL: Paste a URL to a data file into the field. The URL should be to a supported file type. For example, if we want to import a layer showing libraries in MA from the MassGIS website, the URL for the datalayer’s info page (http://www.mass.gov/anf/research-and-tech/it-serv-and-support/application-serv/office-of-geographic-information-massgis/datalayers/libraries.html) won’t work; instead, we want the link to the libraries.zip file, which is from *Download this layer: ESRI Shapefile* (http://wsgw.mass.gov/data/gispub/shape/state/libraries.zip).
-⋅⋅* Additional help: http://docs.cartodb.com/tutorials/import_shapefile_in_cartodb.html
+2. Now you have several ways to bring in datasets. Two commonly options:
+  * *Upload Data:* Shapefiles must be compressed in a zip archive (\*.zip) before uploading. Choose *select a file* or drag and drop the zip file onto the New table window.
+  * *Import from URL:* Paste a URL to a data file into the field. The URL should be to a supported file type. For example, if we want to import a layer showing libraries in MA from the MassGIS website, the .html URL for the [datalayer’s info page] (http://www.mass.gov/anf/research-and-tech/it-serv-and-support/application-serv/office-of-geographic-information-massgis/datalayers/libraries.html) won’t work; instead, we want the direct link to the libraries.zip file, which is the [*Download this layer: ESRI Shapefile*] link (http://wsgw.mass.gov/data/gispub/shape/state/libraries.zip).
+  * Additional help: http://docs.cartodb.com/tutorials/import_shapefile_in_cartodb.html
+
+####Make a Map
+#####Data View
