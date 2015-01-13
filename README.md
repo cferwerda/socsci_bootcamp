@@ -96,6 +96,7 @@ Use the *Share* button in the top-right corner to share your map.
 ####Learn more about CartoDB
 * [Use SQL to interact with, query, and edit your data.] (http://docs.cartodb.com/tips-and-tricks.html#the-power-of-cartodb)
 * [Tutorials] (http://academy.cartodb.com/)
+* [CartoDB Map of the Week] (http://blog.cartodb.com/categories/map-of-the-week/)
 
 ---
 ## Data Sources
