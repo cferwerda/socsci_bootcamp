@@ -50,15 +50,42 @@ Sign in and click MAP at the top of the page to open the map viewer.
 
 Take the guided tour for a quick overview.
 ####Add Data
+**File formats:** CSV, Excel, ESRI Shapefiles (zipped), GPX files, KML/KMZ, [and more](http://doc.arcgis.com/en/arcgis-online/create-maps/add-layers.htm)
 #####Search for Layers
-A few datasets have already been uploaded for you. You can also use this feature to find datasets posted across ArcGIS Online. You can search within your organization, across the web, or in particular groups.
+Use this feature to find datasets posted in your organization, a group, on the web, or on ArcGIS Online. 
+![alt text](https://raw.githubusercontent.com/cferwerda/NEASIST_workshop/master/img/agxo_searchforshp.jpg "Search for Layers within the NEASIST group")
+Start by looking within the *NEASIST Workshop 2015 Group*. 
 
-For today, look in the NEASSIST 2015 Workshop Group.
-#####Upload Data
-#####Search for Data on ArcGIS Online
-####Make a Map
+Click the *Add* link next to civilwar_battles to add the layer to your map.
+
+Try finding others layers within ArcGIS Online.
+#####Add Layer from File
+Use this feature to add your own datasets. Shapefiles must be compressed in a zip archive (*.zip) before uploading. Browse for the file on your computer, then add it.
+
+More details [here](http://doc.arcgis.com/en/arcgis-online/create-maps/add-layers.htm).
+####Style Your Map
+Click on the drop-down arrow next to a layer to see many options.
+* Change Symbols: adjust the symbol type, color, and size. Try out the settings to see how they work, or check out [the help](http://doc.arcgis.com/en/arcgis-online/create-maps/change-symbols.htm) for details.
+* Configure Pop-ups: format the pop-up info windows. More details [here](http://doc.arcgis.com/en/arcgis-online/create-maps/configure-pop-ups.htm).
+* Displaying Images/Videos in Pop-Up Windows: Your layer should have a column/variable containing a link to an image/video for each feature. You can then select this field under Pop-up Media when you’re configuring pop-ups.
+* Create Labels: add automatically labels to your map.
+* Animate Your Map to Show Change Over Time: if you have a [time-enabled](http://doc.arcgis.com/en/arcgis-online/create-maps/configure-time.htm) layer in your map, then you can use the timeline at the bottom of the map to adjust how the data are viewed. The civilwar_battles layer is time-enabled. If you *don't* wish to show the timeline, click on the drop-down arrow next to the layer and select *Disable Time Animation*.
+* 
+####Perform Analysis
+Use built-in tools to perform basic spatial analysis (buffers, calculate distances, combine datasets, etc.)
+
+Read [the help](http://doc.arcgis.com/en/arcgis-online/use-maps/perform-analysis.htm) for a detailed description of each tool...or just give them a try!
 
 ####Share Your Map
+Regularly save your map (there’s no auto-save). Click the *Save* menu at the top of the screen and give it a good name with at least one tag. It will be saved in My Content.
+
+Use the *Share* button at the top of the screen to share your map.
+* Share with the NEASIST Workshop group so that others can see your map.
+* Share the map via a link (it must be set to be shared with Everyone (public)).
+* Embed the map in a web site or make a separate webapp (it must be set to be shared with Everyone (public)).
+####Make a Story Map
+
+Hint: Decide on what story you want to tell first (e.g., All battles in a particular year? Only decisive battles? Battles in a particular area or involving particular commanders?). Then filter the data in your map to show only the features of interest. Finally, create your story map.
 
 ---
 ###<a name="cartodbhead"></a>CartoDB  <http://cartodb.com/>
