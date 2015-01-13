@@ -1,4 +1,11 @@
-## DATA
+Jump to...
+  * [Data](#datahead)
+  * [Tools - TimeMapper](#timemaphead)
+  * [Tools - ArcGIS Online](#agxohead)
+  * [Tools - CartoDB](#cartodbhead)
+
+---
+## <a name="datahead"></a>DATA
 The data are stored on Google Drive. The link will be shared with you during the workshop.
 ####Civil War Battles
 * civil_war_battles.zip – point shapefile (zipped) of locations of battles, 1861-1865
@@ -20,12 +27,13 @@ The data are stored on Google Drive. The link will be shared with you during the
 * CountyPop2010.zip – polygon shapefile (zipped) of county outlines with population information
 
 ## TOOLS
-###TimeMapper  <http://timemapper.okfnlabs.org/>
+###<a name="timemaphead"></a>TimeMapper  <http://timemapper.okfnlabs.org/>
 To use TimeMapper, you need a Google account so that you can create a Google spreadsheet. Creating a TimeMapper account is optional, but it allows you to edit your maps later on.
 ####To learn how to use it:
 *First*, watch the 1 minute tutorial on the website.
 
 *Then* look at the example Civil War [spreadsheet] (https://docs.google.com/spreadsheets/d/1E_r2WyxQmk7SNQhjeWBWz_R6Pv-DMe8kZjHb3TOM9GA/edit?usp=sharing) and [map] (http://timemapper.okfnlabs.org/carolinferwerda/civil-war-battles-timemapper-example-spreadsheet).
+
 *General steps:*
 1. Decide what you want to focus on. (All battles in a particular year? Only decisive battles? Battles in a particular area or involving particular commanders?)
 2. Create a new spreadsheet with the battles of interest. Format the spreadsheet so that TimeMapper can read it.
@@ -33,15 +41,17 @@ To use TimeMapper, you need a Google account so that you can create a Google spr
 4. Publish the map according to the instructions on the TimeMapper website. Share the link to your map with others!
 
 ---
-###ArcGIS Online  <https://www.arcgis.com/home/signin.html>
+###<a name="agxohead"></a>ArcGIS Online  <https://www.arcgis.com/home/signin.html>
 You will be provided with temporary accounts during the workshop. The accounts will remain available to you until 1/21, after which all content will be deleted as these accounts will be used in other trainings.
 ####Add Data
 #####Upload Data
 #####Search for Data on ArcGIS Online
 ####Make a Map
 
+####Share Your Map
+
 ---
-###CartoDB  <http://cartodb.com/>
+###<a name="cartodbhead"></a>CartoDB  <http://cartodb.com/>
 Go to the website to sign up for a free account. Chrome is the recommended browser for this tool.
 ####Add Data
 **File formats:** CSV, Excel, ESRI Shapefiles, and GPX files
