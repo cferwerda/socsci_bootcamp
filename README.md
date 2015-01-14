@@ -25,6 +25,7 @@ The data are stored on Google Drive. The link will be shared with you during the
 * tornado.zip at <http://www.spc.noaa.gov/gis/svrgis/> – line shapefile of tracks of all tornadoes (magnitudes 1-5), 1950-2013
 * Tornado Variable Descriptions.pdf – metadata for the tornado datasets
 * CountyPop2010.zip – polygon shapefile (zipped) of county outlines with population information
+* Tornadoes3 Spreadsheet - Google spreadsheet of all tornadoes of at least a magnitude of 3; suitable for copying rows into a new spreadsheet for use with TimeMapper
 
 ## TOOLS
 ###<a name="timemaphead"></a>TimeMapper  <http://timemapper.okfnlabs.org/>
@@ -46,15 +47,16 @@ You will be provided with temporary accounts during the workshop. The accounts w
 
 Go to [**http://esrit3g.maps.arcgis.com**](http://esrit3g.maps.arcgis.com) to log in for this workshop.
 ####Get Started
-Sign in and click MAP at the top of the page to open the map viewer.
+Sign in and click *MAP* at the top of the page to open the map viewer.
 
 Take the guided tour for a quick overview.
 ####Add Data
 **File formats:** CSV, Excel, ESRI Shapefiles (zipped), GPX files, KML/KMZ, [and more](http://doc.arcgis.com/en/arcgis-online/create-maps/add-layers.htm)
 #####Search for Layers
 Use this feature to find datasets posted in your organization, a group, on the web, or on ArcGIS Online. 
+
+Start by looking within the *NEASIST Workshop 2015 Group*.
 ![alt text](https://raw.githubusercontent.com/cferwerda/NEASIST_workshop/master/img/agxo_searchforshp.jpg "Search for Layers within the NEASIST group")
-Start by looking within the *NEASIST Workshop 2015 Group*. 
 
 Click the *Add* link next to civilwar_battles to add the layer to your map.
 
@@ -70,22 +72,32 @@ Click on the drop-down arrow next to a layer to see many options.
 * Displaying Images/Videos in Pop-Up Windows: Your layer should have a column/variable containing a link to an image/video for each feature. You can then select this field under Pop-up Media when you’re configuring pop-ups.
 * Create Labels: add automatically labels to your map.
 * Animate Your Map to Show Change Over Time: if you have a [time-enabled](http://doc.arcgis.com/en/arcgis-online/create-maps/configure-time.htm) layer in your map, then you can use the timeline at the bottom of the map to adjust how the data are viewed. The civilwar_battles layer is time-enabled. If you *don't* wish to show the timeline, click on the drop-down arrow next to the layer and select *Disable Time Animation*.
-* 
+
 ####Perform Analysis
 Use built-in tools to perform basic spatial analysis (buffers, calculate distances, combine datasets, etc.)
 
 Read [the help](http://doc.arcgis.com/en/arcgis-online/use-maps/perform-analysis.htm) for a detailed description of each tool...or just give them a try!
 
-####Share Your Map
-Regularly save your map (there’s no auto-save). Click the *Save* menu at the top of the screen and give it a good name with at least one tag. It will be saved in My Content.
+####Save & Share Your Map
+Regularly save your map (there’s no auto-save). Click the *Save* menu at the top of the screen and give it a good name with at least one tag. It will be saved in *My Content*.
 
 Use the *Share* button at the top of the screen to share your map.
 * Share with the NEASIST Workshop group so that others can see your map.
 * Share the map via a link (it must be set to be shared with Everyone (public)).
-* Embed the map in a web site or make a separate webapp (it must be set to be shared with Everyone (public)).
+* Embed the map in a web site or make a separate webapp (it must be set to be shared publicly to embed). See the next section for details!
 ####Make a Story Map
+Decide what story you want to tell first. For example, if you're working on the Civil War project do you want to focus on all battles in a particular year? Only decisive battles? Battles in a particular area or involving particular commanders? Then filter the data in your map to show only the features of interest (use the *Filter* tool in the drop-down menu for each layer).
 
-Hint: Decide on what story you want to tell first (e.g., All battles in a particular year? Only decisive battles? Battles in a particular area or involving particular commanders?). Then filter the data in your map to show only the features of interest. Finally, create your story map.
+Publish your map using one of the templates. This is a great way to make good-looking [story maps](http://storymaps.arcgis.com) with images and text.
+
+1.	Click Share, share your map with the NEASIST group, then click the *Make a Web Application* button.
+2.	For now, look under *Configurable Apps*. Hover over a template for details. Click *Publish* under a template, then either Preview or Publish it. 
+  * For something like a tour of Civil War sites, check out Story Map Journal or Story Map Tour. 
+  * The Time Aware template allows you to animate change over time, but it can be buggy.
+3.	After publishing the map, change the settings and appearance of the app. Click the *HELP* button at the top for tips.
+  * If you are creating a story map journal or tour, use the *Change Media* button over the image to choose which photo or video to show for each point.
+4.	When you’re happy with your map, click the *Share* button and copy the link.
+5.	[More details](http://doc.arcgis.com/en/arcgis-online/create-maps/create-map-apps.htm)
 
 ---
 ###<a name="cartodbhead"></a>CartoDB  <http://cartodb.com/>
