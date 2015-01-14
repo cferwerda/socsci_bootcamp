@@ -9,7 +9,7 @@ Jump to...
 The data are stored on Google Drive. The link will be shared with you during the workshop.
 ####Civil War Battles
 * civil_war_battles.zip – point shapefile (zipped) of locations of battles, 1861-1865
-* civil_war_states.zip – polygon shapefile (zipped) of state outlines as of 18___, categorized by allegiance
+* civil_war_states.zip – polygon shapefile (zipped) of state outlines in 1860s, categorized by allegiance
 * Civil War Battles spreadsheet – all battles in spreadsheet format, for use in TimeMapper
 * Civil War Battles TimeMapper Example Spreadsheet – an example of how to format a spreadsheet to use in TimeMapper
 * Civil War Battles Variable Descriptions.pdf – metadata for the Civil War datasets
