@@ -36,6 +36,7 @@ To use TimeMapper, you need a Google account so that you can create a Google spr
 *Then* look at the example Civil War [spreadsheet](https://docs.google.com/spreadsheets/d/1E_r2WyxQmk7SNQhjeWBWz_R6Pv-DMe8kZjHb3TOM9GA/edit?usp=sharing) and [map](http://timemapper.okfnlabs.org/carolinferwerda/civil-war-battles-timemapper-example-spreadsheet).
 
 *General steps:*
+
 1. Decide what you want to focus on. (All battles in a particular year? Only decisive battles? Battles in a particular area or involving particular commanders?)
 2. Create a new spreadsheet with the battles of interest. Format the spreadsheet so that TimeMapper can read it.
 3. Find any additional media for each battles (an image or youtube video) and paste the link in the Media column of the spreadsheet. Fill in source information, descriptions, etc. This is the part where you can customize the message of the map!
