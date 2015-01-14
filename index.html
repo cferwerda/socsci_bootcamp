@@ -53,7 +53,7 @@
 
 <ul>
 <li>civil_war_battles.zip – point shapefile (zipped) of locations of battles, 1861-1865</li>
-<li>civil_war_states.zip – polygon shapefile (zipped) of state outlines as of 18___, categorized by allegiance</li>
+<li>civil_war_states.zip – polygon shapefile (zipped) of state outlines in 1860s, categorized by allegiance</li>
 <li>Civil War Battles spreadsheet – all battles in spreadsheet format, for use in TimeMapper</li>
 <li>Civil War Battles TimeMapper Example Spreadsheet – an example of how to format a spreadsheet to use in TimeMapper</li>
 <li>Civil War Battles Variable Descriptions.pdf – metadata for the Civil War datasets</li>
@@ -101,7 +101,7 @@
 
 <ol>
 <li>Decide what you want to focus on. (All battles in a particular year? Only decisive battles? Battles in a particular area or involving particular commanders?)</li>
-<li>Create a new spreadsheet with the battles of interest. Format the spreadsheet so that TimeMapper can read it.</li>
+<li>Create a new spreadsheet with the points of interest. Format the spreadsheet so that TimeMapper can read it.</li>
 <li>Find any additional media for each battles (an image or youtube video) and paste the link in the Media column of the spreadsheet. Fill in source information, descriptions, etc. This is the part where you can customize the message of the map!</li>
 <li>Publish the map according to the instructions on the TimeMapper website. Share the link to your map with others!</li>
 </ol>
@@ -109,9 +109,8 @@
 <hr>
 
 <h3>
-<a id="arcgis-online--httpswwwarcgiscomhomesigninhtml" class="anchor" href="#arcgis-online--httpswwwarcgiscomhomesigninhtml" aria-hidden="true"><span class="octicon octicon-link"></span></a>
-<a name="agxohead"></a>ArcGIS Online  <a href="https://www.arcgis.com/home/signin.html">https://www.arcgis.com/home/signin.html</a>
-</h3>
+<a id="arcgis-online" class="anchor" href="#arcgis-online" aria-hidden="true"><span class="octicon octicon-link"></span></a>
+<a name="agxohead"></a>ArcGIS Online</h3>
 
 <p>You will be provided with temporary accounts during the workshop. The accounts will remain available to you until 1/21, after which all content will be deleted as these accounts will be used in other trainings.</p>
 
@@ -154,11 +153,16 @@
 <p>Click on the drop-down arrow next to a layer to see many options.</p>
 
 <ul>
-<li>Change Symbols: adjust the symbol type, color, and size. Try out the settings to see how they work, or check out <a href="http://doc.arcgis.com/en/arcgis-online/create-maps/change-symbols.htm">the help</a> for details.</li>
-<li>Configure Pop-ups: format the pop-up info windows. More details <a href="http://doc.arcgis.com/en/arcgis-online/create-maps/configure-pop-ups.htm">here</a>.</li>
-<li>Displaying Images/Videos in Pop-Up Windows: Your layer should have a column/variable containing a link to an image/video for each feature. You can then select this field under Pop-up Media when you’re configuring pop-ups.</li>
-<li>Create Labels: add automatically labels to your map.</li>
-<li>Animate Your Map to Show Change Over Time: if you have a <a href="http://doc.arcgis.com/en/arcgis-online/create-maps/configure-time.htm">time-enabled</a> layer in your map, then you can use the timeline at the bottom of the map to adjust how the data are viewed. The civilwar_battles layer is time-enabled. If you <em>don't</em> wish to show the timeline, click on the drop-down arrow next to the layer and select <em>Disable Time Animation</em>.</li>
+<li>
+<strong>Change Symbols</strong>: adjust the symbol type, color, and size. Try out the settings to see how they work, or check out <a href="http://doc.arcgis.com/en/arcgis-online/create-maps/change-symbols.htm">the help</a> for details.</li>
+<li>
+<strong>Configure Pop-ups</strong>: format the pop-up info windows. More details <a href="http://doc.arcgis.com/en/arcgis-online/create-maps/configure-pop-ups.htm">here</a>.</li>
+<li>
+<strong>Display Images/Videos in Pop-Up Windows</strong>: Your layer should have a column/variable containing a link to an image/video for each feature. You can then select this field under Pop-up Media when you’re configuring pop-ups.</li>
+<li>
+<strong>Create Labels</strong>: add automatically labels to your map.</li>
+<li>
+<strong>Animate Your Map to Show Change Over Time</strong>: if you have a <a href="http://doc.arcgis.com/en/arcgis-online/create-maps/configure-time.htm">time-enabled</a> layer in your map, then you can use the timeline at the bottom of the map to adjust how the data are viewed. The civilwar_battles layer is time-enabled. If you <em>don't</em> wish to show the timeline, click on the drop-down arrow next to the layer and select <em>Disable Time Animation</em>.</li>
 </ul>
 
 <h4>
@@ -171,23 +175,26 @@
 <h4>
 <a id="save--share-your-map" class="anchor" href="#save--share-your-map" aria-hidden="true"><span class="octicon octicon-link"></span></a>Save &amp; Share Your Map</h4>
 
-<p>Regularly save your map (there’s no auto-save). Click the <em>Save</em> menu at the top of the screen and give it a good name with at least one tag. It will be saved in <em>My Content</em>.</p>
+<p><strong>Regularly save your map (there’s no auto-save).</strong> Click the <em>Save</em> menu at the top of the screen and give it a good name with at least one tag. It will be saved in <em>My Content</em>.</p>
 
 <p>Use the <em>Share</em> button at the top of the screen to share your map.</p>
 
 <ul>
 <li>Share with the NEASIST Workshop group so that others can see your map.</li>
 <li>Share the map via a link (it must be set to be shared with Everyone (public)).</li>
-<li>Embed the map in a web site or make a separate webapp (it must be set to be shared publicly to embed). See the next section for details!
-####Make a Story Map
-Decide what story you want to tell first. For example, if you're working on the Civil War project do you want to focus on all battles in a particular year? Only decisive battles? Battles in a particular area or involving particular commanders? Then filter the data in your map to show only the features of interest (use the <em>Filter</em> tool in the drop-down menu for each layer).</li>
+<li>Embed the map in a web site or make a separate webapp (it must be set to be shared publicly to embed). See the next section for details!</li>
 </ul>
+
+<h4>
+<a id="make-a-story-map" class="anchor" href="#make-a-story-map" aria-hidden="true"><span class="octicon octicon-link"></span></a>Make a Story Map</h4>
+
+<p>Decide what story you want to tell first. For example, if you're working on the Civil War project do you want to focus on all battles in a particular year? Only decisive battles? Battles in a particular area or involving particular commanders? Then filter the data in your map to show only the features of interest (use the <em>Filter</em> tool in the drop-down menu for each layer).</p>
 
 <p>Publish your map using one of the templates. This is a great way to make good-looking <a href="http://storymaps.arcgis.com">story maps</a> with images and text.</p>
 
 <ol>
 <li> Click Share, share your map with the NEASIST group, then click the <em>Make a Web Application</em> button.</li>
-<li> For now, look under <em>Configurable Apps</em>. Hover over a template for details. Click <em>Publish</em> under a template, then either Preview or Publish it. 
+<li> For now, look under <em>Configurable Apps</em>. Hover over a template for details. Click <em>Publish</em> under a template, then either Preview or Publish it.
 
 <ul>
 <li>For something like a tour of Civil War sites, check out Story Map Journal or Story Map Tour. </li>
@@ -201,15 +208,15 @@ Decide what story you want to tell first. For example, if you're working on the 
 </ul>
 </li>
 <li> When you’re happy with your map, click the <em>Share</em> button and copy the link.</li>
-<li> <a href="http://doc.arcgis.com/en/arcgis-online/create-maps/create-map-apps.htm">More details</a>
+<li> For more details, check out <a href="http://doc.arcgis.com/en/arcgis-online/create-maps/create-map-apps.htm">the help</a>
 </li>
 </ol>
 
 <hr>
 
 <h3>
-<a id="cartodb--httpcartodbcom" class="anchor" href="#cartodb--httpcartodbcom" aria-hidden="true"><span class="octicon octicon-link"></span></a>
-<a name="cartodbhead"></a>CartoDB  <a href="http://cartodb.com/">http://cartodb.com/</a>
+<a id="cartodb-----httpcartodbcom" class="anchor" href="#cartodb-----httpcartodbcom" aria-hidden="true"><span class="octicon octicon-link"></span></a>
+<a name="cartodbhead"></a>CartoDB     <a href="http://cartodb.com/">http://cartodb.com/</a>
 </h3>
 
 <p>Go to the website to sign up for a free account. Chrome is the recommended browser for this tool.</p>
