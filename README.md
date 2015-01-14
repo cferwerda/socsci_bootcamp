@@ -38,12 +38,12 @@ To use TimeMapper, you need a Google account so that you can create a Google spr
 *General steps:*
 
 1. Decide what you want to focus on. (All battles in a particular year? Only decisive battles? Battles in a particular area or involving particular commanders?)
-2. Create a new spreadsheet with the battles of interest. Format the spreadsheet so that TimeMapper can read it.
+2. Create a new spreadsheet with the points of interest. Format the spreadsheet so that TimeMapper can read it.
 3. Find any additional media for each battles (an image or youtube video) and paste the link in the Media column of the spreadsheet. Fill in source information, descriptions, etc. This is the part where you can customize the message of the map!
 4. Publish the map according to the instructions on the TimeMapper website. Share the link to your map with others!
 
 ---
-###<a name="agxohead"></a>ArcGIS Online  <https://www.arcgis.com/home/signin.html>
+###<a name="agxohead"></a>ArcGIS Online
 You will be provided with temporary accounts during the workshop. The accounts will remain available to you until 1/21, after which all content will be deleted as these accounts will be used in other trainings.
 
 Go to [**http://esrit3g.maps.arcgis.com**](http://esrit3g.maps.arcgis.com) to log in for this workshop.
@@ -68,11 +68,11 @@ Use this feature to add your own datasets. Shapefiles must be compressed in a zi
 More details [here](http://doc.arcgis.com/en/arcgis-online/create-maps/add-layers.htm).
 ####Style Your Map
 Click on the drop-down arrow next to a layer to see many options.
-* Change Symbols: adjust the symbol type, color, and size. Try out the settings to see how they work, or check out [the help](http://doc.arcgis.com/en/arcgis-online/create-maps/change-symbols.htm) for details.
-* Configure Pop-ups: format the pop-up info windows. More details [here](http://doc.arcgis.com/en/arcgis-online/create-maps/configure-pop-ups.htm).
-* Displaying Images/Videos in Pop-Up Windows: Your layer should have a column/variable containing a link to an image/video for each feature. You can then select this field under Pop-up Media when you’re configuring pop-ups.
-* Create Labels: add automatically labels to your map.
-* Animate Your Map to Show Change Over Time: if you have a [time-enabled](http://doc.arcgis.com/en/arcgis-online/create-maps/configure-time.htm) layer in your map, then you can use the timeline at the bottom of the map to adjust how the data are viewed. The civilwar_battles layer is time-enabled. If you *don't* wish to show the timeline, click on the drop-down arrow next to the layer and select *Disable Time Animation*.
+* **Change Symbols**: adjust the symbol type, color, and size. Try out the settings to see how they work, or check out [the help](http://doc.arcgis.com/en/arcgis-online/create-maps/change-symbols.htm) for details.
+* **Configure Pop-ups**: format the pop-up info windows. More details [here](http://doc.arcgis.com/en/arcgis-online/create-maps/configure-pop-ups.htm).
+* **Display Images/Videos in Pop-Up Windows**: Your layer should have a column/variable containing a link to an image/video for each feature. You can then select this field under Pop-up Media when you’re configuring pop-ups.
+* **Create Labels**: add automatically labels to your map.
+* **Animate Your Map to Show Change Over Time**: if you have a [time-enabled](http://doc.arcgis.com/en/arcgis-online/create-maps/configure-time.htm) layer in your map, then you can use the timeline at the bottom of the map to adjust how the data are viewed. The civilwar_battles layer is time-enabled. If you *don't* wish to show the timeline, click on the drop-down arrow next to the layer and select *Disable Time Animation*.
 
 ####Perform Analysis
 Use built-in tools to perform basic spatial analysis (buffers, calculate distances, combine datasets, etc.)
@@ -80,28 +80,29 @@ Use built-in tools to perform basic spatial analysis (buffers, calculate distanc
 Read [the help](http://doc.arcgis.com/en/arcgis-online/use-maps/perform-analysis.htm) for a detailed description of each tool...or just give them a try!
 
 ####Save & Share Your Map
-Regularly save your map (there’s no auto-save). Click the *Save* menu at the top of the screen and give it a good name with at least one tag. It will be saved in *My Content*.
+**Regularly save your map (there’s no auto-save).** Click the *Save* menu at the top of the screen and give it a good name with at least one tag. It will be saved in *My Content*.
 
 Use the *Share* button at the top of the screen to share your map.
 * Share with the NEASIST Workshop group so that others can see your map.
 * Share the map via a link (it must be set to be shared with Everyone (public)).
 * Embed the map in a web site or make a separate webapp (it must be set to be shared publicly to embed). See the next section for details!
+ 
 ####Make a Story Map
 Decide what story you want to tell first. For example, if you're working on the Civil War project do you want to focus on all battles in a particular year? Only decisive battles? Battles in a particular area or involving particular commanders? Then filter the data in your map to show only the features of interest (use the *Filter* tool in the drop-down menu for each layer).
 
 Publish your map using one of the templates. This is a great way to make good-looking [story maps](http://storymaps.arcgis.com) with images and text.
 
 1.	Click Share, share your map with the NEASIST group, then click the *Make a Web Application* button.
-2.	For now, look under *Configurable Apps*. Hover over a template for details. Click *Publish* under a template, then either Preview or Publish it. 
+2.	For now, look under *Configurable Apps*. Hover over a template for details. Click *Publish* under a template, then either Preview or Publish it.
   * For something like a tour of Civil War sites, check out Story Map Journal or Story Map Tour. 
   * The Time Aware template allows you to animate change over time, but it can be buggy.
 3.	After publishing the map, change the settings and appearance of the app. Click the *HELP* button at the top for tips.
   * If you are creating a story map journal or tour, use the *Change Media* button over the image to choose which photo or video to show for each point.
 4.	When you’re happy with your map, click the *Share* button and copy the link.
-5.	[More details](http://doc.arcgis.com/en/arcgis-online/create-maps/create-map-apps.htm)
+5.	For more details, check out [the help](http://doc.arcgis.com/en/arcgis-online/create-maps/create-map-apps.htm)
 
 ---
-###<a name="cartodbhead"></a>CartoDB  <http://cartodb.com/>
+###<a name="cartodbhead"></a>CartoDB     <http://cartodb.com/>
 Go to the website to sign up for a free account. Chrome is the recommended browser for this tool.
 ####Add Data
 **File formats:** CSV, Excel, ESRI Shapefiles, and GPX files
