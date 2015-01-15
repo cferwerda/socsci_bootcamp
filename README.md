@@ -74,7 +74,7 @@ Click on the drop-down arrow next to a layer to see many options.
 * **Change Symbols**: adjust the symbol type, color, and size. Try out the settings to see how they work, or check out [the help](http://doc.arcgis.com/en/arcgis-online/create-maps/change-symbols.htm) for details.
 * **Configure Pop-ups**: format the pop-up info windows, including which fields are visible. Try adding images or graphs! More details [here](http://doc.arcgis.com/en/arcgis-online/create-maps/configure-pop-ups.htm).
 * **Display Images/Videos in Pop-Up Windows**: Your layer should have a column/variable containing a link to an image/video for each feature. You can then select this field under Pop-up Media when you’re configuring pop-ups.
-* **Create Labels**: add automatically labels to your map.
+* **Create Labels**: automatically add labels to your map.
 * **Animate Your Map to Show Change Over Time**: if you have a [time-enabled](http://doc.arcgis.com/en/arcgis-online/create-maps/configure-time.htm) layer in your map, then you can use the timeline at the bottom of the map to adjust how the data are viewed. The civilwar_battles layer is time-enabled. If you *don't* wish to show the timeline, click on the drop-down arrow next to the layer and select *Disable Time Animation*.
 * **Copy**: Copy a layer if you want to show multiple variables (for example, obesity in 2000 vs. 2010).
 
@@ -88,8 +88,8 @@ Read [the help](http://doc.arcgis.com/en/arcgis-online/use-maps/perform-analysis
 
 Use the *Share* button at the top of the screen to share your map.
 * Share with the NEASIST Workshop group so that others can see your map.
-* Share the map via a link (it must be set to be shared with Everyone (public)).
-* Embed the map in a web site or make a separate webapp (it must be set to be shared publicly to embed). See the next section for details!
+* Share the map via a link.
+* Embed the map in a web site (must be shared with Everyone) or make a separate webapp. See the next section for details about making a webapp!
  
 ####Make a Story Map
 Decide what story you want to tell first. For example, if you're working on the Civil War project do you want to focus on all battles in a particular year? Only decisive battles? Battles in a particular area or involving particular commanders?
@@ -112,7 +112,7 @@ Go to the website to sign up for a free account. Chrome is the recommended brows
 **File formats:** CSV, Excel, ESRI Shapefiles, and GPX files
 
 1. Go to your CartoDB dashboard (https://yourusername.cartodb.com/dashboard/)  and click *New Table* (the big plus sign in the right side of the screen).
-2. Now you have several ways to bring in datasets. Two commonly options:
+2. Now you have several ways to bring in datasets. Two common options:
   * *Upload Data:* Shapefiles must be compressed in a zip archive (\*.zip) before uploading. Choose *select a file* or drag and drop the zip file onto the New table window.
   * *Import from URL:* Paste a URL to a data file into the field. The URL should be to a supported file type. For example, if we want to import a layer showing libraries in MA from the MassGIS website, the .html URL for the [datalayer’s info page](http://www.mass.gov/anf/research-and-tech/it-serv-and-support/application-serv/office-of-geographic-information-massgis/datalayers/libraries.html) won’t work; instead, we want the direct link to the libraries.zip file, which is the [*Download this layer: ESRI Shapefile* link](http://wsgw.mass.gov/data/gispub/shape/state/libraries.zip). ![alt text](https://raw.githubusercontent.com/cferwerda/NEASIST_workshop/master/img/massgis_libraries.jpg "MassGIS Data Site")
   * Additional help: http://docs.cartodb.com/tutorials/import_shapefile_in_cartodb.html
