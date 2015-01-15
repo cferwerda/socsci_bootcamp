@@ -65,14 +65,18 @@ Try finding others layers within ArcGIS Online.
 #####Add Layer from File
 Use this feature to add your own datasets. Shapefiles must be compressed in a zip archive (*.zip) before uploading. Browse for the file on your computer, then add it.
 
+#####When a File Contains >1000 Features
+You can't simply add upload it to your map. Instead, go to *MY CONTENT* and use the *Add Item* drop-down menu to upload the file from your computer. Once the file has been uploaded, return to your map and choose *Add | Search for Layers*, and look for the layer in My Content. Note that sometimes layers with >1000 features will render slowy, so you may want to filter them to show only a subset (see below for how!).
+
 More details [here](http://doc.arcgis.com/en/arcgis-online/create-maps/add-layers.htm).
 ####Style Your Map
 Click on the drop-down arrow next to a layer to see many options.
 * **Change Symbols**: adjust the symbol type, color, and size. Try out the settings to see how they work, or check out [the help](http://doc.arcgis.com/en/arcgis-online/create-maps/change-symbols.htm) for details.
-* **Configure Pop-ups**: format the pop-up info windows. More details [here](http://doc.arcgis.com/en/arcgis-online/create-maps/configure-pop-ups.htm).
+* **Configure Pop-ups**: format the pop-up info windows, including which fields are visible. Try adding images or graphs! More details [here](http://doc.arcgis.com/en/arcgis-online/create-maps/configure-pop-ups.htm).
 * **Display Images/Videos in Pop-Up Windows**: Your layer should have a column/variable containing a link to an image/video for each feature. You can then select this field under Pop-up Media when you’re configuring pop-ups.
 * **Create Labels**: add automatically labels to your map.
 * **Animate Your Map to Show Change Over Time**: if you have a [time-enabled](http://doc.arcgis.com/en/arcgis-online/create-maps/configure-time.htm) layer in your map, then you can use the timeline at the bottom of the map to adjust how the data are viewed. The civilwar_battles layer is time-enabled. If you *don't* wish to show the timeline, click on the drop-down arrow next to the layer and select *Disable Time Animation*.
+* **Copy**: Copy a layer if you want to show multiple variables (for example, obesity in 2000 vs. 2010).
 
 ####Perform Analysis
 Use built-in tools to perform basic spatial analysis (buffers, calculate distances, combine datasets, etc.)
@@ -88,7 +92,7 @@ Use the *Share* button at the top of the screen to share your map.
 * Embed the map in a web site or make a separate webapp (it must be set to be shared publicly to embed). See the next section for details!
  
 ####Make a Story Map
-Decide what story you want to tell first. For example, if you're working on the Civil War project do you want to focus on all battles in a particular year? Only decisive battles? Battles in a particular area or involving particular commanders? Then filter the data in your map to show only the features of interest (use the *Filter* tool in the drop-down menu for each layer).
+Decide what story you want to tell first. For example, if you're working on the Civil War project do you want to focus on all battles in a particular year? Only decisive battles? Battles in a particular area or involving particular commanders?
 
 Publish your map using one of the templates. This is a great way to make good-looking [story maps](http://storymaps.arcgis.com) with images and text.
 
@@ -96,7 +100,7 @@ Publish your map using one of the templates. This is a great way to make good-lo
 2.	For now, look under *Configurable Apps*. Hover over a template for details. Click *Publish* under a template, then either Preview or Publish it.
   * For something like a tour of Civil War sites, check out Story Map Journal or Story Map Tour. 
   * The Time Aware template allows you to animate change over time, but it can be buggy.
-3.	After publishing the map, change the settings and appearance of the app. Click the *HELP* button at the top for tips.
+3.	After publishing the map, change the settings and appearance of the app. Click the *HELP* button at the top for tips. To only show certain features, click the *Organize* button and then hide the features you don't want to show.
   * If you are creating a story map journal or tour, use the *Change Media* button over the image to choose which photo or video to show for each point.
 4.	When you’re happy with your map, click the *Share* button and copy the link.
 5.	For more details, check out [the help](http://doc.arcgis.com/en/arcgis-online/create-maps/create-map-apps.htm)
@@ -117,7 +121,7 @@ Go to the website to sign up for a free account. Chrome is the recommended brows
 #####View Your Data
   ![alt text](https://raw.githubusercontent.com/cferwerda/NEASIST_workshop/master/img/cartodb_datamapview.jpg "2 views to work with data in CartoDB")
 
-* **Data View**: Once you add data, you will first see it as a table in Data View. This shows you the variables for each feature (row) in the dataset as a spreadsheet. You can use this table view to format, query, and edit the data.
+* **Data View**: Once you add data, you will first see it as a table in Data View. This shows you the variables for each feature (row) in the dataset as a spreadsheet. You can use this table view to format, query, and edit the data. It's a good idea to check that numbers are stored as numbers and not strings at this point.
 
 * **Map View**: This shows you the data located on a map – you may need to zoom or pan to it.
 
