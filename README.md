@@ -1,6 +1,5 @@
 Jump to...
   * [Data](#datahead)
-  * [Tools - TimeMapper](#timemaphead)
   * [Tools - ArcGIS Online](#agxohead)
   * [Tools - CartoDB](#cartodbhead)
 
@@ -10,8 +9,8 @@ The data are stored on Google Drive. The link will be shared with you during the
 ####Civil War Battles
 * civil_war_battles.zip – point shapefile (zipped) of locations of battles, 1861-1865
 * civil_war_states.zip – polygon shapefile (zipped) of state outlines in 1860s, categorized by allegiance
-* Civil War Battles spreadsheet – all battles in spreadsheet format, for use in TimeMapper
-* Civil War Battles TimeMapper Example Spreadsheet – an example of how to format a spreadsheet to use in TimeMapper
+* Civil War Battles spreadsheet – all battles in spreadsheet format, for use in TimeMapper (not used today)
+* Civil War Battles TimeMapper Example Spreadsheet – an example of how to format a spreadsheet to use in TimeMapper (not used today)
 * Civil War Battles Variable Descriptions.pdf – metadata for the Civil War datasets
 
 ####Adult Obesity in the US
@@ -28,23 +27,8 @@ The data are stored on Google Drive. The link will be shared with you during the
 * Tornadoes3 Spreadsheet - Google spreadsheet of all tornadoes of at least a magnitude of 3; suitable for copying rows into a new spreadsheet for use with TimeMapper
 
 ## TOOLS
-###<a name="timemaphead"></a>TimeMapper  <http://timemapper.okfnlabs.org/>
-To use TimeMapper, you need a Google account so that you can create a Google spreadsheet. Creating a TimeMapper account is optional, but it allows you to edit your maps later on.
-####To learn how to use it:
-*First*, watch the 1 minute tutorial on the website.
-
-*Then* look at the example Civil War [spreadsheet](https://docs.google.com/spreadsheets/d/1E_r2WyxQmk7SNQhjeWBWz_R6Pv-DMe8kZjHb3TOM9GA/edit?usp=sharing) and [map](http://timemapper.okfnlabs.org/carolinferwerda/civil-war-battles-timemapper-example-spreadsheet).
-
-*General steps:*
-
-1. Decide what you want to focus on. (All battles in a particular year? Only decisive battles? Battles in a particular area or involving particular commanders?)
-2. Create a new spreadsheet with the points of interest. Format the spreadsheet so that TimeMapper can read it.
-3. Find any additional media for each battles (an image or youtube video) and paste the link in the Media column of the spreadsheet. Fill in source information, descriptions, etc. This is the part where you can customize the message of the map!
-4. Publish the map according to the instructions on the TimeMapper website. Share the link to your map with others!
-
----
 ###<a name="agxohead"></a>ArcGIS Online
-You will be provided with temporary accounts during the workshop. The accounts will remain available to you until 1/21, after which all content will be deleted as these accounts will be used in other trainings.
+You will be provided with temporary accounts during the workshop. The accounts will remain available to you until 6/9, after which all content will be deleted as these accounts will be used in other trainings.
 
 Go to [**http://esrit3g.maps.arcgis.com**](http://esrit3g.maps.arcgis.com) to log in for this workshop.
 ####Get Started
@@ -152,6 +136,22 @@ Use the *Share* button in the top-right corner to share your map.
 * [Use SQL to interact with, query, and edit your data.](http://docs.cartodb.com/tips-and-tricks.html#the-power-of-cartodb)
 * [Tutorials](http://academy.cartodb.com/)
 * [CartoDB Map of the Week](http://blog.cartodb.com/categories/map-of-the-week/)
+
+---
+###<a name="timemaphead"></a>TimeMapper  <http://timemapper.okfnlabs.org/>
+*Note:* We didn't cover TimeMapper in the workshop, but it's a simple and handy tool to have in your kit.
+To use TimeMapper, you need a Google account so that you can create a Google spreadsheet. Creating a TimeMapper account is optional, but it allows you to edit your maps later on.
+####To learn how to use it:
+*First*, watch the 1 minute tutorial on the website.
+
+*Then* look at the example Civil War [spreadsheet](https://docs.google.com/spreadsheets/d/1E_r2WyxQmk7SNQhjeWBWz_R6Pv-DMe8kZjHb3TOM9GA/edit?usp=sharing) and [map](http://timemapper.okfnlabs.org/carolinferwerda/civil-war-battles-timemapper-example-spreadsheet).
+
+*General steps:*
+
+1. Decide what you want to focus on. (All battles in a particular year? Only decisive battles? Battles in a particular area or involving particular commanders?)
+2. Create a new spreadsheet with the points of interest. Format the spreadsheet so that TimeMapper can read it.
+3. Find any additional media for each battles (an image or youtube video) and paste the link in the Media column of the spreadsheet. Fill in source information, descriptions, etc. This is the part where you can customize the message of the map!
+4. Publish the map according to the instructions on the TimeMapper website. Share the link to your map with others!
 
 ---
 ## Data Sources
