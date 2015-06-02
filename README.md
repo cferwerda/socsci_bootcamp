@@ -5,26 +5,17 @@ Jump to...
 
 ---
 ## <a name="datahead"></a>DATA
-The data are stored on Google Drive. The link will be shared with you during the workshop.
+The data are stored [here](https://drive.google.com/folderview?id=0B1lTuXNNu47_flVKMXVvR2ZEMWlTLXo2VFVmaVh3Y2hkQ05oMGt2SEFVSUlIcXRlcnJoakk&usp=sharing). You should be able to access the files without signing in to Google. Open a folder and then click to download the .zip files. It is NOT necessary to unzip the files after downloading.
 ####Civil War Battles
 * civil_war_battles.zip – point shapefile (zipped) of locations of battles, 1861-1865
 * civil_war_states.zip – polygon shapefile (zipped) of state outlines in 1860s, categorized by allegiance
-* Civil War Battles spreadsheet – all battles in spreadsheet format, for use in TimeMapper (not used today)
-* Civil War Battles TimeMapper Example Spreadsheet – an example of how to format a spreadsheet to use in TimeMapper (not used today)
 * Civil War Battles Variable Descriptions.pdf – metadata for the Civil War datasets
 
 ####Adult Obesity in the US
 * state_obesity.zip – polygon shapefile (zipped) of state outlines with obesity data
 * ma_obesity.zip – polygon shapefile (zipped) of Massachusetts counties with obesity and demographic data
-* Obesity Variable Descriptions spreadsheet – metadata for obesity variables
+* Obesity Variable Descriptions.pdf – metadata for obesity variables
 * Find other layers at [MassGIS](http://www.mass.gov/anf/research-and-tech/it-serv-and-support/application-serv/office-of-geographic-information-massgis/datalayers/) 
-
-####Tornadoes, 1950-present
-* tornadoes3.zip – point shapefile (zipped) of locations of all tornadoes of at least a magnitude of 3 on the EF-scale, 1950-2013
-* tornado.zip at <http://www.spc.noaa.gov/gis/svrgis/> – line shapefile of tracks of all tornadoes (magnitudes 1-5), 1950-2013
-* Tornado Variable Descriptions.pdf – metadata for the tornado datasets
-* CountyPop2010.zip – polygon shapefile (zipped) of county outlines with population information
-* Tornadoes3 Spreadsheet - Google spreadsheet of all tornadoes of at least a magnitude of 3; suitable for copying rows into a new spreadsheet for use with TimeMapper
 
 ## TOOLS
 ###<a name="agxohead"></a>ArcGIS Online
@@ -149,7 +140,7 @@ To use TimeMapper, you need a Google account so that you can create a Google spr
 *General steps:*
 
 1. Decide what you want to focus on. (All battles in a particular year? Only decisive battles? Battles in a particular area or involving particular commanders?)
-2. Create a new spreadsheet with the points of interest. Format the spreadsheet so that TimeMapper can read it.
+2. You can find a spreadsheet with all of the Civil War battles [here](https://docs.google.com/spreadsheets/d/1ZvMwypbUZeAwXZ6YPMVA-pRYLjAzmPA44nXUc4U-QA4/edit?usp=sharing). Create a new spreadsheet with the points of interest. Format the spreadsheet so that TimeMapper can read it. 
 3. Find any additional media for each battles (an image or youtube video) and paste the link in the Media column of the spreadsheet. Fill in source information, descriptions, etc. This is the part where you can customize the message of the map!
 4. Publish the map according to the instructions on the TimeMapper website. Share the link to your map with others!
 
