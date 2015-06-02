@@ -27,7 +27,6 @@ Sign in and click *MAP* at the top of the page to open the map viewer.
 
 Take the guided tour for a quick overview.
 ####Add Data
-**File formats:** CSV, Excel, ESRI Shapefiles (zipped), GPX files, KML/KMZ, [and more](http://doc.arcgis.com/en/arcgis-online/create-maps/add-layers.htm)
 #####Search for Layers
 Use this feature to find datasets posted in your organization, a group, on the web, or on ArcGIS Online. 
 
@@ -38,15 +37,17 @@ Click the *Add* link next to civilwar_battles to add the layer to your map.
 
 Try finding others layers within ArcGIS Online.
 #####Add Layer from File
+**File formats:** CSV, Excel, ESRI Shapefiles (zipped), GPX files, KML/KMZ, [and more](http://doc.arcgis.com/en/arcgis-online/create-maps/add-layers.htm)
+
 Use this feature to add your own datasets. Shapefiles must be compressed in a zip archive (*.zip) before uploading. Browse for the file on your computer, then add it.
 
 #####When a File Contains >1000 Features
-You can't simply add upload it to your map. Instead, go to *MY CONTENT* and use the *Add Item* drop-down menu to upload the file from your computer. Once the file has been uploaded, return to your map and choose *Add | Search for Layers*, and look for the layer in My Content. Note that sometimes layers with >1000 features will render slowy, so you may want to filter them to show only a subset (see below for how!).
+You can't simply add upload files with >1000 features to your map. Instead, go to *MY CONTENT* and use the *Add Item* drop-down menu to upload the file from your computer. Once the file has been uploaded, return to your map and choose *Add | Search for Layers*, and look for the layer in My Content. Note that sometimes layers with >1000 features will render slowy, so you may want to filter them to show only a subset (see below for how!).
 
 More details [here](http://doc.arcgis.com/en/arcgis-online/create-maps/add-layers.htm).
 ####Style Your Map
 Click on the drop-down arrow next to a layer to see many options.
-* **Change Symbols**: adjust the symbol type, color, and size. Try out the settings to see how they work, or check out [the help](http://doc.arcgis.com/en/arcgis-online/create-maps/change-symbols.htm) for details.
+* **Change Style**: Choose an attribute/variable to show, then choose how you want to visualize the data (graduated symbols, colors, etc). Then click options to adjust the symbol type, color, and size. Click Done when you are happy with the result. Try out the settings to see how they work, or check out [the help](https://doc.arcgis.com/en/arcgis-online/create-maps/change-style.htm) for details.
 * **Configure Pop-ups**: format the pop-up info windows, including which fields are visible. Try adding images or graphs! More details [here](http://doc.arcgis.com/en/arcgis-online/create-maps/configure-pop-ups.htm).
 * **Display Images/Videos in Pop-Up Windows**: Your layer should have a column/variable containing a link to an image/video for each feature. You can then select this field under Pop-up Media when you’re configuring pop-ups.
 * **Create Labels**: automatically add labels to your map.
