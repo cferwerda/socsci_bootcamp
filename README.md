@@ -27,6 +27,7 @@ Sign in and click *MAP* at the top of the page to open the map viewer.
 
 Take the guided tour for a quick overview.
 ####Add Data
+Click on the **Add** drop-down menu in the left panel to add data layers.
 #####Search for Layers
 Use this feature to find datasets posted in your organization, a group, on the web, or on ArcGIS Online. 
 
