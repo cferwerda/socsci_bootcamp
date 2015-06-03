@@ -87,10 +87,12 @@ Go to the website to sign up for a free account. Chrome is the recommended brows
 ####Add Data
 **File formats:** CSV, Excel, ESRI Shapefiles, and GPX files
 
-1. Go to your CartoDB dashboard (https://yourusername.cartodb.com/dashboard/)  and click *New Table* (the big plus sign in the right side of the screen).
-2. Now you have several ways to bring in datasets. Two common options:
-  * *Upload Data:* Shapefiles must be compressed in a zip archive (\*.zip) before uploading. Choose *select a file* or drag and drop the zip file onto the New table window.
-  * *Import from URL:* Paste a URL to a data file into the field. The URL should be to a supported file type. For example, if we want to import a layer showing libraries in MA from the MassGIS website, the .html URL for the [datalayer’s info page](http://www.mass.gov/anf/research-and-tech/it-serv-and-support/application-serv/office-of-geographic-information-massgis/datalayers/libraries.html) won’t work; instead, we want the direct link to the libraries.zip file, which is the [*Download this layer: ESRI Shapefile* link](http://wsgw.mass.gov/data/gispub/shape/state/libraries.zip). ![alt text](https://raw.githubusercontent.com/cferwerda/NEASIST_workshop/master/img/massgis_libraries.jpg "MassGIS Data Site")
+1. Go to your CartoDB dashboard (https://yourusername.cartodb.com/dashboard/)  and click *New Map* (the green button on the right side of the screen).
+2. From here you can watch tutorials (highly recommended!) or create a new map from scratch. Choose Create New Map for now, and come back to watch the tutorials later.
+3. Now you have several ways to bring in datasets. Two common options:
+  * *Connect Dataset:* Upload datasets to CartoDB (they'll be stored so you can access them from multiple maps).
+    * Choose *Data file* to upload a dataset stored on your computer or the web. To upload a file, click the *Select a File* button near the bottom of the page. Shapefiles must be compressed in a zip archive (\*.zip) before uploading.
+     * To import a dataset from a URL: Paste a URL to a data file into the *Enter a URL* field and click Submit. The URL should be to a supported file type. For example, if we want to import a layer showing libraries in MA from the MassGIS website, the .html URL for the [datalayer’s info page](http://www.mass.gov/anf/research-and-tech/it-serv-and-support/application-serv/office-of-geographic-information-massgis/datalayers/libraries.html) won’t work; instead, we want the direct link to the libraries.zip file, which is the [*Download this layer: ESRI Shapefile* link](http://wsgw.mass.gov/data/gispub/shape/state/libraries.zip). ![alt text](https://raw.githubusercontent.com/cferwerda/NEASIST_workshop/master/img/massgis_libraries.jpg "MassGIS Data Site")
   * Additional help: http://docs.cartodb.com/tutorials/import_shapefile_in_cartodb.html
 
 ####Make a Map
