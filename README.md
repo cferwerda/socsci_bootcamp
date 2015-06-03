@@ -5,7 +5,7 @@ Jump to...
 
 ---
 ## <a name="datahead"></a>DATA
-The data are stored [here](https://drive.google.com/folderview?id=0B1lTuXNNu47_flVKMXVvR2ZEMWlTLXo2VFVmaVh3Y2hkQ05oMGt2SEFVSUlIcXRlcnJoakk&usp=sharing). You should be able to access the files without signing in to Google. Open a folder, click on a .zip file, and click the download button at the top of the page ![alt text](https://raw.githubusercontent.com/cferwerda/socsci_bootcamp/master/img/gdrive_download.jpg "Download button in Google Drive"). It is NOT necessary to unzip the files after downloading.
+The data are stored [here](https://drive.google.com/folderview?id=0B1lTuXNNu47_flVKMXVvR2ZEMWlTLXo2VFVmaVh3Y2hkQ05oMGt2SEFVSUlIcXRlcnJoakk&usp=sharing) (or type http://bit.ly/SSB-2015 into your browser). You should be able to access the files without signing in to Google. Open a folder, click on a .zip file, and click the download button at the top of the page ![alt text](https://raw.githubusercontent.com/cferwerda/socsci_bootcamp/master/img/gdrive_download.jpg "Download button in Google Drive"). It is NOT necessary to unzip the files after downloading.
 ####Civil War Battles
 * civil_war_battles.zip – point shapefile (zipped) of locations of battles, 1861-1865
 * civil_war_states.zip – polygon shapefile (zipped) of state outlines in 1860s, categorized by allegiance
@@ -31,7 +31,7 @@ Take the guided tour for a quick overview.
 Use this feature to find datasets posted in your organization, a group, on the web, or on ArcGIS Online. 
 
 Start by looking within the *SocSci Bootcamp 2015 Group*.
-![alt text](https://raw.githubusercontent.com/cferwerda/NEASIST_workshop/master/img/agxo_searchforshp.jpg "Search for Layers within the NEASIST group")
+![alt text](https://raw.githubusercontent.com/cferwerda/NEASIST_workshop/master/img/agxo_searchforshp.jpg "Search for Layers within the SocSci Bootcamp group")
 
 Click the *Add* link next to civilwar_battles to add the layer to your map.
 
@@ -63,23 +63,21 @@ Read [the help](http://doc.arcgis.com/en/arcgis-online/use-maps/perform-analysis
 **Regularly save your map (there’s no auto-save).** Click the *Save* menu at the top of the screen and give it a good name with at least one tag. It will be saved in *My Content*.
 
 Use the *Share* button at the top of the screen to share your map.
-* Share with the NEASIST Workshop group so that others can see your map.
+* Share with the SocSci Bootcamp group so that others can see your map.
 * Share the map via a link.
 * Embed the map in a web site (must be shared with Everyone) or make a separate webapp. See the next section for details about making a webapp!
  
 ####Make a Story Map
+Note: Creating a [story maps](http://storymaps.arcgis.com) is outside the time scope of this workshop, but it can result in very good-looking and informative maps (check out the gallery: http://storymaps.arcgis.com/en/gallery). Instructions are below in case you would like to give it a try on your own!
+
 Decide what story you want to tell first. For example, if you're working on the Civil War project do you want to focus on all battles in a particular year? Only decisive battles? Battles in a particular area or involving particular commanders?
 
-Publish your map using one of the templates. This is a great way to make good-looking [story maps](http://storymaps.arcgis.com) with images and text.
-
-1.	Click Share, share your map with the NEASIST group, then click the *Make a Web Application* button.
+1.	Change the style of your data and filter it until it tells the story you would like. Save your map.
+2.	Click Share, share your map with the SocSci Bootcamp group, then click the *Make a Web Application* button.
 2.	For now, look under *Configurable Apps*. Hover over a template for details. Click *Publish* under a template, then either Preview or Publish it.
-  * For something like a tour of Civil War sites, check out Story Map Journal or Story Map Tour. 
+  * For something like a tour of Civil War sites, try the Story Map Journal or Story Map Tour. 
   * The Time Aware template allows you to animate change over time, but it can be buggy.
-3.	After publishing the map, change the settings and appearance of the app. Click the *HELP* button at the top for tips. To only show certain features, click the *Organize* button and then hide the features you don't want to show.
-  * If you are creating a story map journal or tour, use the *Change Media* button over the image to choose which photo or video to show for each point.
-4.	When you’re happy with your map, click the *Share* button and copy the link.
-5.	For more details, check out [the help](http://doc.arcgis.com/en/arcgis-online/create-maps/create-map-apps.htm)
+3.	After publishing the map, change the settings and appearance of the app. Click the *HELP* button at the top for tips. Each story map template is configured in a different way, so consult [the help](http://doc.arcgis.com/en/arcgis-online/create-maps/create-map-apps.htm) for more details about customizing each template.
 
 ---
 ###<a name="cartodbhead"></a>CartoDB     <http://cartodb.com/>
