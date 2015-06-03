@@ -5,7 +5,7 @@ Jump to...
 
 ---
 ## <a name="datahead"></a>DATA
-The data are stored [here](https://drive.google.com/folderview?id=0B1lTuXNNu47_flVKMXVvR2ZEMWlTLXo2VFVmaVh3Y2hkQ05oMGt2SEFVSUlIcXRlcnJoakk&usp=sharing). You should be able to access the files without signing in to Google. Open a folder and then click to download the .zip files. It is NOT necessary to unzip the files after downloading.
+The data are stored [here](https://drive.google.com/folderview?id=0B1lTuXNNu47_flVKMXVvR2ZEMWlTLXo2VFVmaVh3Y2hkQ05oMGt2SEFVSUlIcXRlcnJoakk&usp=sharing). You should be able to access the files without signing in to Google. Open a folder, click on a .zip file, and click the download button at the top of the page ![alt text](https://raw.githubusercontent.com/cferwerda/socsci_bootcamp/master/img/gdrive_download.jpg "Download button in Google Drive"). It is NOT necessary to unzip the files after downloading.
 ####Civil War Battles
 * civil_war_battles.zip – point shapefile (zipped) of locations of battles, 1861-1865
 * civil_war_states.zip – polygon shapefile (zipped) of state outlines in 1860s, categorized by allegiance
