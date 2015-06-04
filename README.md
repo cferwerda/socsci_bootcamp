@@ -32,7 +32,7 @@ Click on the **Add** drop-down menu in the left panel to add data layers.
 Use this feature to find datasets posted in your organization, a group, on the web, or on ArcGIS Online. 
 
 Start by looking within the *SocSci Bootcamp 2015 Group*.
-![alt text](https://raw.githubusercontent.com/cferwerda/NEASIST_workshop/master/img/agxo_searchforshp.jpg "Search for Layers within the SocSci Bootcamp group")
+![alt text](https://raw.githubusercontent.com/cferwerda/socsci_bootcamp/master/img/agxo_searchforshp.jpg "Search for Layers within the SocSci Bootcamp group")
 
 Click the *Add* link next to civilwar_battles to add the layer to your map.
 
