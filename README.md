@@ -42,6 +42,9 @@ Try finding others layers within ArcGIS Online.
 
 Use this feature to add your own datasets. Shapefiles must be compressed in a zip archive (*.zip) before uploading. Browse for the file on your computer, then add it.
 
+#####Reorder Data Layers in the Map
+Is one layer obscuring another on the map? Hover your mouse over the name of a layer in the Contents panel, then click on the 3 vertical dots to the left of the layer name and drag it up or down in the list of layer. You can also click on the drop-down menu to the right of layer and choose *Move Up* or *Move Down*.
+
 #####When a File Contains >1000 Features
 You can't simply add upload files with >1000 features to your map. Instead, go to *MY CONTENT* and use the *Add Item* drop-down menu to upload the file from your computer. Once the file has been uploaded, return to your map and choose *Add | Search for Layers*, and look for the layer in My Content. Note that sometimes layers with >1000 features will render slowy, so you may want to filter them to show only a subset (see below for how!).
 
@@ -54,6 +57,12 @@ Click on the drop-down arrow next to a layer to see many options.
 * **Create Labels**: automatically add labels to your map.
 * **Animate Your Map to Show Change Over Time**: if you have a [time-enabled](http://doc.arcgis.com/en/arcgis-online/create-maps/configure-time.htm) layer in your map, then you can use the timeline at the bottom of the map to adjust how the data are viewed. The civilwar_battles layer is time-enabled. If you *don't* wish to show the timeline, click on the drop-down arrow next to the layer and select *Disable Time Animation*.
 * **Copy**: Copy a layer if you want to show multiple variables (for example, obesity in 2000 vs. 2010).
+
+**Can't see your data layer on the map and its name is greyed out in the Content panel?** Try zooming in or chaning the visibility range:
+1.	Click on the drop-down arrow next to the layer and choose Set Visibility Range.
+2.	Move the arrows to opposite ends of the bar so that the entire bar is grey (i.e., the layer is visible from the ‘world’ to ‘building’ scale).
+![alt text](https://raw.githubusercontent.com/cferwerda/socsci_bootcamp/master/img/agxo_setvisibilityrange.jpg "Set visibility rangle")
+3.	Now when you zoom out, the layer should still remain visible and show in black font in the Content menu.
 
 ####Perform Analysis
 Use built-in tools to perform basic spatial analysis (buffers, calculate distances, combine datasets, etc.)
@@ -116,6 +125,8 @@ Click the blue plus sign at the top of the right-hand toolbar to *Add layers* an
 You can toggle between the layers in the right-hand toolbar to change how each is styled. [More details here](http://docs.cartodb.com/tutorials/multilayer_overview.html)
 
 To remove a layer from your map, click on the small grey X next to the layer.
+
+To reorder layers on your map, click on the layer title and drag it up or down in the list of layers.
 
 #####Add Map Elements
 Click the *Add Element* button on the lefthand side of the screen. This allows you to add a legend, text box, annotation (linked to a particular location & zoom level), or image (e.g., a logo). Simply drag and drop to move them to the desired location, and click on an element to activate the formatting toolbar. Click [here] (http://docs.cartodb.com/cartodb-editor.html#add-element) for more details.
