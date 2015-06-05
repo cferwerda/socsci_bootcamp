@@ -59,10 +59,10 @@ Click on the drop-down arrow next to a layer to see many options.
 * **Copy**: Copy a layer if you want to show multiple variables (for example, obesity in 2000 vs. 2010).
 
 **Can't see your data layer on the map and its name is greyed out in the Content panel?** Try zooming in or chaning the visibility range:
+
 1.	Click on the drop-down arrow next to the layer and choose Set Visibility Range.
-2.	Move the arrows to opposite ends of the bar so that the entire bar is grey (i.e., the layer is visible from the ‘world’ to ‘building’ scale).
+2.	Move the arrows to opposite ends of the bar so that the entire bar is grey (i.e., the layer is visible from the ‘world’ to ‘building’ scale). Now when you zoom out, the layer should still remain visible and show in black font in the Content menu.
 ![alt text](https://raw.githubusercontent.com/cferwerda/socsci_bootcamp/master/img/agxo_setvisibilityrange.jpg "Set visibility rangle")
-3.	Now when you zoom out, the layer should still remain visible and show in black font in the Content menu.
 
 ####Perform Analysis
 Use built-in tools to perform basic spatial analysis (buffers, calculate distances, combine datasets, etc.)
